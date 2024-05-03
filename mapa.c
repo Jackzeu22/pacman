@@ -49,11 +49,11 @@ int encontramapa(MAPA* m, POSICAO* p, char c) {
 	return 0;
 }
 
-void imprimemapa(MAPA* m) {
+/*void imprimemapa(MAPA* m) {
         for(int i = 0; i < m->linhas; i++) {
                 printf("%s\n", m->matriz[i]);
         }
-}
+}*/
 
 int ehpersonagem(MAPA* m, char personagem,
 		int x, int y) {
